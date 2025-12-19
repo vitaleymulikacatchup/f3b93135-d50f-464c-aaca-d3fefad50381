@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarStyleCentered from '@/components/navbar/NavbarStyleCentered/NavbarStyleCentered';
@@ -222,7 +222,6 @@ export default function LandingPage() {
       <div id="footer" data-section="footer">
         <FooterBaseReveal 
           logoSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/gallery/uploaded-1766139811510-n9knt0v0.jpg"
-          logoAlt="AUTOZAZ Logo"
           logoWidth={48}
           logoHeight={48}
           columns={[
